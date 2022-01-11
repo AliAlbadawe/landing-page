@@ -38,13 +38,14 @@ window.addEventListener("scroll", viewCheck);
 
 //Added "to top" button
 let toTopBtn = document.querySelector(".to-top-btn");
-window.onscroll = () => {
+
+window.addEventListener("scroll", () => {
   if (window.scrollY > 450) {
     toTopBtn.classList.add("get");
   } else {
     toTopBtn.classList.remove("get");
   }
-};
+});
 
 toTopBtn.addEventListener("click", () => {
   document.documentElement.scrollTop = 0;
