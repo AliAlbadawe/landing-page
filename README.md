@@ -6,4 +6,4 @@ Udacity course Project.
 
 ---
 
-Tried my best to write the minimal codes number required to match tasks required. To make it readable and easy to navigate.
+Tried my best to write the minimal codes number to match tasks required. To make it readable and easy to navigate.
