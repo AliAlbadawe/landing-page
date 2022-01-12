@@ -22,10 +22,7 @@ body {
   font-family: "Merriweather", serif;
   color: #fff;
 }
-/* ----------I Added scroll behavior ---------- */
-html {
-  scroll-behavior: smooth;
-}
+
 /* Typeography General*/
 h1 {
   font-family: "Fira Sans", sans-serif;
@@ -79,7 +76,10 @@ section {
   position: relative;
   min-height: 80vh;
 }
-
+a.get {
+  background-color: #eee;
+  color: rgb(88, 86, 86);
+}
 /* ---- Module Rules ---- */
 
 /* Navigation Styles*/
